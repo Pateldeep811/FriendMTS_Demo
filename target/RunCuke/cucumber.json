@@ -1,0 +1,527 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11681728300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify i should able to click on Contact Us",
+        "description": "",
+        "id": "homepagemenutest;verify-i-should-able-to-click-on-contact-us",
+        "after": [
+          {
+            "result": {
+              "duration": 343500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 266147300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1699244500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Contact Us.",
+            "match": {
+              "location": "MyStepdefs.iClickOnContactUs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am navigated on Contact Us Page.",
+            "match": {
+              "location": "MyStepdefs.iAmNavigatedOnContactUsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6255025400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "verify i should navigate inside the About us page.",
+        "description": "",
+        "id": "homepagemenutest;verify-i-should-navigate-inside-the-about-us-page.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4506300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3440805200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I mousehover on About us \"Company overview\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Company overview",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.iMousehoverOnAboutUs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am navigated on About us page.",
+            "match": {
+              "location": "MyStepdefs.iAmNavigatedOnAboutUsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6882359100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "verify i should navigate inside the About us page.",
+        "description": "",
+        "id": "homepagemenutest;verify-i-should-navigate-inside-the-about-us-page.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 46400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8358700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4214484500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I mousehover on About us \"Who we are\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Who we are",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.iMousehoverOnAboutUs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am navigated on About us page.",
+            "match": {
+              "location": "MyStepdefs.iAmNavigatedOnAboutUsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17880989800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "verify i should navigate inside the About us page.",
+        "description": "",
+        "id": "homepagemenutest;verify-i-should-navigate-inside-the-about-us-page.;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 63100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7828400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12389886400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I mousehover on About us \"News \u0026 Resources\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "News \u0026 Resources",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.iMousehoverOnAboutUs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am navigated on About us page.",
+            "match": {
+              "location": "MyStepdefs.iAmNavigatedOnAboutUsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7830927600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "verify i should navigate inside the About us page.",
+        "description": "",
+        "id": "homepagemenutest;verify-i-should-navigate-inside-the-about-us-page.;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3697400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5296625800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I mousehover on About us \"Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Events",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.iMousehoverOnAboutUs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am navigated on About us page.",
+            "match": {
+              "location": "MyStepdefs.iAmNavigatedOnAboutUsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9674611600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "verify i should navigate inside the About us page.",
+        "description": "",
+        "id": "homepagemenutest;verify-i-should-navigate-inside-the-about-us-page.;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 51300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4209200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6107356000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I mousehover on About us \"Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customers",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.iMousehoverOnAboutUs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am navigated on About us page.",
+            "match": {
+              "location": "MyStepdefs.iAmNavigatedOnAboutUsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8346872700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify the Display Message",
+        "description": "",
+        "id": "homepagemenutest;verify-the-display-message",
+        "after": [
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5265000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on home page.",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188314600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I will be able to see the Message \"ASiD 4th Generation\" on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ASiD 4th Generation",
+                  "offset": 35
+                }
+              ],
+              "location": "MyStepdefs.iWillBeAbleToSeeTheMessageOnThePage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HomePageMenuTest",
+    "description": "As a user i should navigate to Services by click.",
+    "id": "homepagemenutest",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/friendMTS.feature"
+  }
+]
